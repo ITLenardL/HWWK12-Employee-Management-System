@@ -12,10 +12,10 @@ INSERT INTO company_role (title, salary, dept_id) VALUES
 ("Lawyer", 190000, 4)
 ;
 
-INSERT INTO employees (first_name, last_name, emp_role_id, manager_id) VALUES
-("Ashley","Rodiguez", 3, null),
-("Kevin","Tupik", 4, null),
-("Malia","Brown", 5, null),
-("Sarah","Lourd", 6, null),
-("Tom","Allen", 7, null);
+INSERT INTO employees (emp_id, first_name, last_name, emp_role_id, manager_id) VALUES
+(1, "Ashley","Rodiguez", 3, null),
+(2, "Kevin","Tupik", 4, null),
+(3, "Malia","Brown", 5, 2),
+(4, "Sarah","Lourd", 6, 1),
+(5, "Tom","Allen", 7, 2);
 ;
